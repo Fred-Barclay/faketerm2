@@ -1,0 +1,23 @@
+'.platform-darwin atom-workspace':
+  'cmd-shift-t': 'faketerm2:new'
+  'cmd-shift-j': 'faketerm2:prev'
+  'cmd-shift-k': 'faketerm2:next'
+  'cmd-shift-x': 'faketerm2:close'
+  'ctrl-enter': 'faketerm2:insert-selected-text'
+  'ctrl-`': 'faketerm2:toggle'
+
+'.platform-linux atom-workspace, .platform-win32 atom-workspace':
+  'alt-shift-t': 'faketerm2:new'
+  'alt-shift-j': 'faketerm2:prev'
+  'alt-shift-k': 'faketerm2:next'
+  'alt-shift-x': 'faketerm2:close'
+  'ctrl-enter': 'faketerm2:insert-selected-text'
+  'ctrl-`': 'faketerm2:toggle'
+
+'.platform-darwin .faketerm2 .terminal':
+  'cmd-c': 'faketerm2:copy'
+  'cmd-v': 'faketerm2:paste'
+
+'.platform-linux .faketerm2 .terminal, .platform-win32 .faketerm2 .terminal':
+  'alt-v': 'faketerm2:paste'
+  'alt-c': 'faketerm2:copy'

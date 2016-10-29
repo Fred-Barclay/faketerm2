@@ -1,0 +1,62 @@
+'context-menu':
+  '.faketerm2 .pio-terminal-status-icon': [
+    {label: 'Red', command: 'faketerm2:status-red'},
+    {label: 'Orange', command: 'faketerm2:status-orange'},
+    {label: 'Yellow', command: 'faketerm2:status-yellow'},
+    {label: 'Green', command: 'faketerm2:status-green'},
+    {label: 'Blue', command: 'faketerm2:status-blue'},
+    {label: 'Purple', command: 'faketerm2:status-purple'},
+    {label: 'Pink', command: 'faketerm2:status-pink'},
+    {label: 'Cyan', command: 'faketerm2:status-cyan'},
+    {label: 'Magenta', command: 'faketerm2:status-magenta'},
+    {label: 'Default', command: 'faketerm2:status-default'},
+    {type: 'separator'},
+    {label: 'Hide', command: 'faketerm2:context-hide'},
+    {label: 'Rename', command: 'faketerm2:context-rename'},
+    {label: 'Close', command: 'faketerm2:context-close'}
+  ]
+  '.faketerm2 .terminal': [
+    {label: 'Copy', command: 'faketerm2:copy'},
+    {label: 'Paste', command: 'faketerm2:paste'},
+    {type: 'separator'},
+    {label: 'Hide', command: 'faketerm2:hide'},
+    {label: 'Close', command: 'faketerm2:close'}
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'faketerm2'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'faketerm2:toggle'
+        },
+        {
+          'label': 'New Terminal'
+          'command': 'faketerm2:new'
+        },
+        {
+          'label': 'Previous Terminal'
+          'command': 'faketerm2:prev'
+        },
+        {
+          'label': 'Next Terminal'
+          'command': 'faketerm2:next'
+        },
+        {
+          'label': 'Toggle Fullscreen'
+          'command': 'faketerm2:fullscreen'
+        },
+        {
+          'label': 'Close Terminal'
+          'command': 'faketerm2:close'
+        },
+        {
+          'label': 'Close All Terminals'
+          'command': 'faketerm2:close-all'
+        }
+      ]
+    ]
+  }
+]
