@@ -1,7 +1,7 @@
 {
   "name": "faketerm2",
   "main": "./lib/platformio-ide-terminal",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "NON-working terminal (just testing code). All bugs are Fred's fault ;) .",
   "author": "Jeremy Ebneyamin",
   "keywords": [
