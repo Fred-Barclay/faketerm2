@@ -1,7 +1,7 @@
 {
   "name": "faketerm2",
   "main": "./lib/faketerm2",
-  "version": "0.3.3",
+  "version": "1.0.0",
   "description": "NON-working terminal (just testing code). All bugs are Fred's fault ;) .",
   "author": "Jeremy Ebneyamin",
   "keywords": [
@@ -40,7 +40,7 @@
     "atom": ">=1.2.0"
   },
   "dependencies": {
-   "atom-space-pen-views": "^2.1.0",
+    "atom-space-pen-views": "^2.1.0",
     "pty.js": "^0.3.1",
     "term.js": "https://github.com/jeremyramin/term.js",
     "underscore": "^1.8.3",
