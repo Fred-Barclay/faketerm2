@@ -277,7 +277,10 @@ class StatusBar extends View
     @activeTerminal.destroy()
     @activeTerminal = null
 
-    @activateAdjacentTerminal index
+    activated = @activateAdjacentTerminal index
+    if activated
+      @toggle()
+    activated
 
   closeAll: =>
     for index in [@terminalViews.length .. 0]
