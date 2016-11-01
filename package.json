@@ -1,7 +1,7 @@
 {
   "name": "faketerm2",
   "main": "./lib/faketerm2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NON-working terminal (just testing code). All bugs are Fred's fault ;) .",
   "author": "Jeremy Ebneyamin",
   "license": "MIT",
@@ -36,7 +36,6 @@
   ],
   "homepage": "https://atom.io/packages/faketerm2",
   "repository": "https://github.com/Fred-Barclay/faketerm2",
-  "license": "MIT",
   "engines": {
     "atom": ">=1.2.0"
   },
