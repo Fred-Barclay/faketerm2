@@ -4,6 +4,7 @@
   "version": "1.0.1",
   "description": "NON-working terminal (just testing code). All bugs are Fred's fault ;) .",
   "author": "Jeremy Ebneyamin",
+  "license": "MIT",
   "keywords": [
     "PlatformIO",
     "terminal-plus",
