@@ -36,8 +36,9 @@
   ],
   "homepage": "https://atom.io/packages/faketerm2",
   "repository": "https://github.com/Fred-Barclay/faketerm2",
+  "license": "MIT",
   "engines": {
-    "atom": ">=1.2.0"
+    "atom": ">=1.12.0"
   },
   "dependencies": {
     "atom-space-pen-views": "^2.1.0",
